@@ -27,10 +27,18 @@ https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sh
     - seaborn
     - tensorflow
     - keras
+    pandas: For data manipulation and analysis.
+numpy: For numerical operations.
+scikit-learn: For splitting datasets and additional preprocessing tools.
+matplotlib: For visualizations.
+seaborn: For enhanced visualizations.
+tensorflow: For building and training deep learning models.
+keras: High-level API for neural network implementation.
 
 --- 
 
 ### DESCRIPTION 
+
 <!-- Properly describe the project. Provide the answer of all the questions,
 what is the requirement of the project?, 
 why is it necessary?, 
@@ -43,24 +51,26 @@ etc. -->
 <!-- Provide a comprehensive overview of the project -->
 
 !!! info "What is the requirement of the project?"
-<!-- Why did you need to create this project? -->
-    - Write the answer here in simple bullet points. 
+-To create an intelligent system capable of predicting the next word in a sentence based on its context.
+-The need for such a system arises in applications like autocomplete, chatbots, and virtual assistants.
 
 ??? info "Why is it necessary?"
-<!-- Why is this project important? Mention its significance. -->
-    - Write the answer here in simple bullet points. 
+-Enhances user experience in text-based applications by offering accurate suggestions.
+-Reduces typing effort, especially in mobile applications.
 
 ??? info "How is it beneficial and used?"
-<!-- How will this project benefit others or solve problems? -->
-    - Write the answer here in simple bullet points. 
+-Improves productivity: By predicting words, users can complete sentences faster.
+-Supports accessibility: Assists individuals with disabilities in typing.
+-Boosts efficiency: Helps in real-time text generation in NLP applications like chatbots and email composition.
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
-<!-- What were your initial thoughts and strategies for this project? -->
-    - Write the answer here in simple bullet points. 
+-Studied LSTM architecture and its suitability for sequential data.
+-Explored similar projects and research papers to understand data preprocessing techniques.
+-Experimented with tokenization, padding, and sequence generation for the dataset.
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-<!-- Mention any additional resources, such as blogs, books, articles, or research papers, that you used. -->
-    - Write the answer here in simple bullet points. 
+-Blogs on LSTM from Towards Data Science.
+-TensorFlow and Keras official documentation.
 
 
 --- 
@@ -68,63 +78,54 @@ etc. -->
 ### EXPLANATION 
 
 #### DETAILS OF THE DIFFERENT FEATURES 
-<!-- Elaborate the features as mentioned in the issues, perfoming any googling to learn about the features -->
-<!-- Describe the key features of the project, explaining each one in detail. -->
-
-
+-Word Tokenization: Converts the text into a sequence of integers.
+-Padding: Ensures all sequences have equal lengths.
+-Embedding Layer: Encodes words into dense vectors for the model.
+-LSTM Layers: Captures temporal dependencies and context.
+-Dense Output Layer: Predicts the next word based on probabilities.
 --- 
 
 #### PROJECT WORKFLOW 
-<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
-
 === "Step 1"
-
-    Initial data exploration and understanding:
-
-      - Start Writing from here in bullet points.
+Initial data exploration and understanding:
+- Load the dataset and understand its structure.
+- Explore the text corpus for word frequency, sentence structure, and vocabulary size.
 
 === "Step 2"
-
-    Data cleaning and preprocessing:
-
-      - Start Writing from here in bullet points.
+Data cleaning and preprocessing:
+- Remove punctuation and convert text to lowercase.
+- Tokenize text into sequences and pad them to uniform length.
 
 === "Step 3"
-
-    Feature engineering and selection:
-
-      - Start Writing from here in bullet points.
+Feature engineering and selection:
+- Use word embeddings to create dense feature representations.
 
 === "Step 4"
-
-    Model training and evaluation:
-
-      - Start Writing from here in bullet points.
+Model training and evaluation:
+- Build an LSTM-based sequential model.
+- Train on input-output sequences derived from the dataset.
+- Use categorical cross-entropy loss and the Adam optimizer.
 
 === "Step 5"
-
-    Model optimization and fine-tuning:
-
-      - Start Writing from here in bullet points.
+Model optimization and fine-tuning:
+- Adjust hyperparameters like embedding size, LSTM units, and learning rate.
 
 === "Step 6"
-
-    Validation and testing:
-
-      - Start Writing from here in bullet points.
+Validation and testing:
+- Test the model on unseen data to evaluate its performance.
+- Generate text sequences using a seed sentence.
 
 --- 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
 
-=== "Trade Off 1"
-    - Describe the trade-off encountered (e.g., accuracy vs. computational efficiency).
-      - Explain how you addressed this trade-off (e.g., by optimizing hyperparameters, using a more efficient algorithm, etc.).
+=== "Trade-Off 1"
+- Accuracy vs. Training Time:
+- Solution: Balanced by reducing the model's complexity and using an efficient optimizer.
 
-=== "Trade Off 2"
-    - Describe another trade-off (e.g., model complexity vs. interpretability).
-      - Explain the solution (e.g., by selecting a model that balances both aspects effectively).
+=== "Trade-Off 2"
+- Model complexity vs. Overfitting:
+- Solution: Implemented dropout layers and monitored validation loss during training.
 
 --- 
 
