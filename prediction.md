@@ -34,16 +34,16 @@ https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sh
 
 
 !!! info "What is the requirement of the project?"
--To create an intelligent system capable of predicting the next word in a sentence based on its context.
+-To create an intelligent system capable of predicting the next word in a sentence based on its context.\
 -The need for such a system arises in applications like autocomplete, chatbots, and virtual assistants.
 
 ??? info "Why is it necessary?"
--Enhances user experience in text-based applications by offering accurate suggestions.
+-Enhances user experience in text-based applications by offering accurate suggestions.\
 -Reduces typing effort, especially in mobile applications.
 
 ??? info "How is it beneficial and used?"
--Improves productivity: By predicting words, users can complete sentences faster.
--Supports accessibility: Assists individuals with disabilities in typing.
+-Improves productivity: By predicting words, users can complete sentences faster.\
+-Supports accessibility: Assists individuals with disabilities in typing.\
 -Boosts efficiency: Helps in real-time text generation in NLP applications like chatbots and email composition.
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
