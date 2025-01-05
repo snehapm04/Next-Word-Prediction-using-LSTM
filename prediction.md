@@ -27,28 +27,11 @@ https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sh
     - seaborn
     - tensorflow
     - keras
-    pandas: For data manipulation and analysis.
-numpy: For numerical operations.
-scikit-learn: For splitting datasets and additional preprocessing tools.
-matplotlib: For visualizations.
-seaborn: For enhanced visualizations.
-tensorflow: For building and training deep learning models.
-keras: High-level API for neural network implementation.
 
 --- 
 
 ### DESCRIPTION 
 
-<!-- Properly describe the project. Provide the answer of all the questions,
-what is the requirement of the project?, 
-why is it necessary?, 
-how is it beneficial and used?, 
-how did you start approaching this project?, 
-Any additional resources used like blogs reading, books reading (mention the name of book along with the pages you have read)?
-etc. -->
-<!-- Properly describe the project and answer the following questions: -->
-
-<!-- Provide a comprehensive overview of the project -->
 
 !!! info "What is the requirement of the project?"
 -To create an intelligent system capable of predicting the next word in a sentence based on its context.
@@ -78,6 +61,7 @@ etc. -->
 ### EXPLANATION 
 
 #### DETAILS OF THE DIFFERENT FEATURES 
+
 -Word Tokenization: Converts the text into a sequence of integers.
 -Padding: Ensures all sequences have equal lengths.
 -Embedding Layer: Encodes words into dense vectors for the model.
@@ -171,13 +155,16 @@ Validation and testing:
 <!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
 
 !!! tip "Insights gained from the data"
-    - Write from here in bullet points
+    - The importance of preprocessing for NLP tasks.
+    - How padding and embeddings improve the model’s ability to generalize.
 
 ??? tip "Improvements in understanding machine learning concepts"
-    - Write from here in bullet points
+    - Learned how LSTMs handle sequential dependencies.
+    - Understood the role of softmax activation in predicting word probabilities.
 
 ??? tip "Challenges faced and how they were overcome"
-    - Write from here in bullet points
+    - Challenge: Large vocabulary size causing high memory usage.
+    - Solution: Limited vocabulary to the top frequent words.
 
 --- 
 
@@ -186,12 +173,12 @@ Validation and testing:
 
 === "Application 1"
 
-    **Headline**
+    Text Autocompletion:
     
-      - Explain your application
+      -Used in applications like Gmail and search engines to enhance typing speed.
 
 === "Application 2"
 
-    **Headline**
+    Virtual Assistants:
     
-      - Explain your application
+      -Enables better conversational capabilities in chatbots and AI assistants.
