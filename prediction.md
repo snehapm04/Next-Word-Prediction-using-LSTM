@@ -62,53 +62,53 @@ https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sh
 
 #### DETAILS OF THE DIFFERENT FEATURES 
 
--Word Tokenization: Converts the text into a sequence of integers.\
--Padding: Ensures all sequences have equal lengths.\
--Embedding Layer: Encodes words into dense vectors for the model.\
--LSTM Layers: Captures temporal dependencies and context.\
--Dense Output Layer: Predicts the next word based on probabilities.
+- Word Tokenization: Converts the text into a sequence of integers.
+- Padding: Ensures all sequences have equal lengths.
+- Embedding Layer: Encodes words into dense vectors for the model.
+- LSTM Layers: Captures temporal dependencies and context.
+- Dense Output Layer: Predicts the next word based on probabilities.
 --- 
 
 #### PROJECT WORKFLOW 
-=== "Step 1"\
-Initial data exploration and understanding:\
-- Load the dataset and understand its structure.\
+=== "Step 1"
+Initial data exploration and understanding:
+- Load the dataset and understand its structure.
 - Explore the text corpus for word frequency, sentence structure, and vocabulary size.
 
 === "Step 2"
-Data cleaning and preprocessing:\
-- Remove punctuation and convert text to lowercase.\
+Data cleaning and preprocessing:
+- Remove punctuation and convert text to lowercase.
 - Tokenize text into sequences and pad them to uniform length.
 
-=== "Step 3"\
-Feature engineering and selection:\
+=== "Step 3"
+Feature engineering and selection:
 - Use word embeddings to create dense feature representations.
 
-=== "Step 4"\
-Model training and evaluation:\
-- Build an LSTM-based sequential model.\
-- Train on input-output sequences derived from the dataset.\
+=== "Step 4"
+Model training and evaluation:
+- Build an LSTM-based sequential model.
+- Train on input-output sequences derived from the dataset.
 - Use categorical cross-entropy loss and the Adam optimizer.
 
 === "Step 5"\
-Model optimization and fine-tuning:\
+Model optimization and fine-tuning:
 - Adjust hyperparameters like embedding size, LSTM units, and learning rate.
 
 === "Step 6"
-Validation and testing:\
-- Test the model on unseen data to evaluate its performance.\
+Validation and testing:
+- Test the model on unseen data to evaluate its performance.
 - Generate text sequences using a seed sentence.
 
 --- 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
 
-=== "Trade-Off 1"\
-- Accuracy vs. Training Time:\
+=== "Trade-Off 1"
+- Accuracy vs. Training Time:
 - Solution: Balanced by reducing the model's complexity and using an efficient optimizer.
 
-=== "Trade-Off 2"\
-- Model complexity vs. Overfitting:\
+=== "Trade-Off 2"
+- Model complexity vs. Overfitting:
 - Solution: Implemented dropout layers and monitored validation loss during training.
 
 --- 
@@ -154,15 +154,15 @@ Validation and testing:\
 <!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
 
 !!! tip "Insights gained from the data"\
-    - The importance of preprocessing for NLP tasks.\
+    - The importance of preprocessing for NLP tasks.
     - How padding and embeddings improve the model’s ability to generalize.
 
 ??? tip "Improvements in understanding machine learning concepts"\
-    - Learned how LSTMs handle sequential dependencies.\
+    - Learned how LSTMs handle sequential dependencies.
     - Understood the role of softmax activation in predicting word probabilities.
 
 ??? tip "Challenges faced and how they were overcome"\
-    - Challenge: Large vocabulary size causing high memory usage.\
+    - Challenge: Large vocabulary size causing high memory usage.
     - Solution: Limited vocabulary to the top frequent words.
 
 --- 
