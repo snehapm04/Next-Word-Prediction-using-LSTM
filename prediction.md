@@ -1,7 +1,7 @@
 
 
 # Project Title 
-##Next Word Prediction usign LST
+## Next Word Prediction using LSTM
 
 ### AIM 
 To predict the next word using LSTM.
