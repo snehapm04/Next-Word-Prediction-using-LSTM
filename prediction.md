@@ -11,7 +11,7 @@ To predict the next word using LSTM.
 https://www.kaggle.com/datasets/muhammadbilalhaneef/sherlock-holmes-next-word-prediction-corpus
 
 ### NOTEBOOK LINK 
-https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sharing
+[https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sharing](https://drive.google.com/file/d/1G4XD7VCkI4z6OnZ2vC7qQgxoY3hD2dyY/view?usp=sharing)
 
 
 ### LIBRARIES NEEDED
@@ -34,26 +34,26 @@ https://colab.research.google.com/drive/1w7PvMVj7U_sTdVnJHWrgTK68Gb6XPsqG?usp=sh
 
 
 !!! info "What is the requirement of the project?"\
--To create an intelligent system capable of predicting the next word in a sentence based on its context.\
--The need for such a system arises in applications like autocomplete, chatbots, and virtual assistants.
+- To create an intelligent system capable of predicting the next word in a sentence based on its context.\
+- The need for such a system arises in applications like autocomplete, chatbots, and virtual assistants.
 
 ??? info "Why is it necessary?"\
--Enhances user experience in text-based applications by offering accurate suggestions.\
--Reduces typing effort, especially in mobile applications.
+- Enhances user experience in text-based applications by offering accurate suggestions.\
+- Reduces typing effort, especially in mobile applications.
 
 ??? info "How is it beneficial and used?"\
--Improves productivity: By predicting words, users can complete sentences faster.\
--Supports accessibility: Assists individuals with disabilities in typing.\
--Boosts efficiency: Helps in real-time text generation in NLP applications like chatbots and email composition.
+- Improves productivity: By predicting words, users can complete sentences faster.\
+- Supports accessibility: Assists individuals with disabilities in typing.\
+- Boosts efficiency: Helps in real-time text generation in NLP applications like chatbots and email composition.
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"\
--Studied LSTM architecture and its suitability for sequential data.\
--Explored similar projects and research papers to understand data preprocessing techniques.\
--Experimented with tokenization, padding, and sequence generation for the dataset.
+- Studied LSTM architecture and its suitability for sequential data.\
+- Explored similar projects and research papers to understand data preprocessing techniques.\
+- Experimented with tokenization, padding, and sequence generation for the dataset.
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."\
--Blogs on LSTM from Towards Data Science.\
--TensorFlow and Keras official documentation.
+- Blogs on LSTM from Towards Data Science.\
+- TensorFlow and Keras official documentation.
 
 
 --- 
@@ -174,10 +174,10 @@ Validation and testing:
 
     Text Autocompletion:
     
-      -Used in applications like Gmail and search engines to enhance typing speed.
+      - Used in applications like Gmail and search engines to enhance typing speed.
 
 === "Application 2"
 
     Virtual Assistants:
     
-      -Enables better conversational capabilities in chatbots and AI assistants.
+      - Enables better conversational capabilities in chatbots and AI assistants.
