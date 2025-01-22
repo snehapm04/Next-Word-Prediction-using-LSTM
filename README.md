@@ -92,5 +92,3 @@ graph LR
 - **Virtual Assistants**: Improves the conversational abilities of AI chatbots and assistants.
 
 ---
-
-Let me know if you'd like to adjust any parts of the README!
