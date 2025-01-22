@@ -32,21 +32,12 @@ The need for such a system arises in applications like autocomplete, chatbots, a
     ```bash
     git clone https://github.com/yourusername/next-word-prediction.git
     ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the training script to train the model on the dataset:
-    ```bash
-    python train_model.py
-    ```
-4. Use the trained model to predict the next word by running:
-    ```bash
-    python predict_next_word.py
-    ```
-
-## Dataset
-The dataset used in this project is an open-source text dataset, which can be found in the `data/` folder. The data is preprocessed to remove punctuation, tokenize, and pad the text sequences for input to the model.
+2. **Install Dependencies**:  
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn tensorflow keras
+   ```
+3. **Run the Notebook**:  
+   Open `Next-word-pred-using-LSTM.ipynb` and follow the steps for data preprocessing, model training, and prediction.
 
 ## Project Workflow
 
@@ -92,3 +83,4 @@ graph LR
 - **Virtual Assistants**: Improves the conversational abilities of AI chatbots and assistants.
 
 ---
+
